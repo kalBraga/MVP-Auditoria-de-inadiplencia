@@ -1,11 +1,23 @@
-[file-tag: code-generated-file-0-1781295461839398880]
+# 📊 MVP - Auditoria de Inadimplência
 
-Excelente adição! Criar um `README.md` logo no começo do projeto é uma prática fundamental na engenharia de software[cite: 189, 190]. Ele não só serve para apresentar o seu portfólio para outras pessoas, mas também serve como o nosso "Norte"[cite: 189]. Sempre que o código começar a ficar complexo, nós voltamos ao README para lembrar do objetivo simples e principal do nosso MVP[cite: 189, 190].
+[cite_start]MVP criado para me auxiliar em uma demanda bastante manual do meu trabalho, que é o cruzamento de dados de vários contracheques e uma planilha de faturamento[cite: 199]. [cite_start]Para identificar clientes que por algum motivo ficaram inadimplentes com a empresa que trabalho[cite: 200]. [cite_start]Você pode usar esse MVP para comparar outras coisas, sinta-se livre em acessar o código[cite: 201].
 
-Como seu Tech Lead, já deixei o arquivo redigido com as melhores práticas de mercado: utilizei marcação Markdown para destacar títulos, estruturei a regra de negócio da nossa Chave Composta e deixei um passo a passo claro para execução. 
+## 🚀 Tecnologias e Regra de Negócio
+* **Linguagem:** C# .NET 10
+* **Interface:** Console Application (Terminal)
+* **Validação:** Chave de Identificação Única Composta (CPF + Mês de Referência + Número da Parcela + Valor)
 
-Agora que a nossa documentação base está pronta e o projeto tem nome e propósito, **precisamos voltar para o nosso código.**
+## ⚙️ Como Executar
+1. Certifique-se de ter o .NET 10 SDK instalado.
+2. Clone este repositório ou baixe os arquivos fonte.
+3. Abra o terminal na pasta raiz do projeto.
+4. Execute o comando `dotnet run`.
+5. [cite_start]Siga as instruções no terminal para alimentar o sistema com os seus arquivos .csv ou .txt[cite: 201].
 
-No nosso último passo do `Program.cs`, o desafio era estruturar o "molde" na memória[cite: 186, 187]. 
+## 📈 Saída e Relatórios
+O sistema processará as informações em memória e retornará no próprio terminal uma auditoria clara e visual:
+* [cite_start]🟢 **Verde (Pagamento Localizado):** Todas as validações da chave composta bateram perfeitamente[cite: 202].
+* [cite_start]🟡 **Amarelo (Verificar Inadimplência):** Cliente consta no faturamento, mas a parcela exata não foi localizada nos contracheques do mês de referência[cite: 203].
 
-Como ficou o rascunho da sua `class Parcela` com as quatro propriedades (CPF, Mês de Referência, Número da Parcela e Valor) tipadas? Pode mandar aqui para fazermos o Code Review!
+---
+[cite_start]Desenvolvido como projeto de aprendizado prático e automação de rotina[cite: 204].
